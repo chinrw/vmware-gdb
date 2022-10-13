@@ -1,3 +1,6 @@
+### Note
+Through I have written a guide to VMware gdb, but VMware Workstation is too huge compared to QEMU, so when you failed and VM crashed, you need to much more time to kill the process of VMware and restart the whole program in order to try again. You can try run a QEMU inside the VM, since it already supports nested virtual machines.
+
 # VMware-gdb
 
 VMware Workstation (and Fusion) has a nice feature which allows to debug the Linux kernel running inside the VM with `gdb` on the host. This is enabled by adding few lines to the VM’s configuration file:
@@ -48,7 +51,7 @@ $ gdb vmlinux
 
 For those who use windows, you could clone the virtual machine and use one as debugger to run gdb and compile the vmlinuz and module files. The debug port is open in the host OS, so you can use the `ssh -L 8864:127.0.0.1:8864 HostIP` ssh to create a tunnel.
 
-The rest should be the same with QEMU, just check the Guest Lecture Recording: Kernel Debbugging by Yifei Zhu. Through I have written a guide to VMware gdb, but VMware Workstation is too huge compared to QEMU, so when you failed and VM crashed, you need to much more time to kill the process of VMware and restart the whole program in order to try again. You can try run a QEMU inside the VM, since it already supports nested virtual machines.
+The rest should be the same with QEMU, just check the Guest Lecture Recording: Kernel Debbugging by Yifei Zhu. 
 
 Ref:
 
