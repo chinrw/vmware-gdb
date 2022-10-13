@@ -1,5 +1,5 @@
 ### Note
-Through I have written a guide to VMware gdb, but VMware Workstation is too huge compared to QEMU, so when you failed and VM crashed, you need to much more time to kill the process of VMware and restart the whole program in order to try again. You can try run a QEMU inside the VM, since it already supports nested virtual machines.
+Though I have written a guide to VMware gdb, but VMware Workstation is too huge compared to QEMU, so when you failed and VM crashed, you need to much more time to kill the process of VMware and restart the whole program in order to try again. You can try run a QEMU inside the VM, since it already supports nested virtual machines.
 
 # VMware-gdb
 
